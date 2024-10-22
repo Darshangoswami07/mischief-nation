@@ -1,0 +1,55 @@
+:root {
+  --text: #031411;
+  --background: #eefcfa;
+  --primary: #38ddc6;
+  --secondary: #86beeb;
+  --accent: #62a0e5;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+h1,
+h2,
+h3 {
+  font-family: "Snippet", sans-serif;
+}
+
+p {
+  font-family: monospace;
+}
+.bg-featured {
+  background-color: black;
+}
+.transition {
+  transition: all 0.2s ease-out;
+}
+
+.h-60 {
+  height: 14rem;
+}
+
+.w-128 {
+  width: 32rem;
+}
+.price {
+  margin-right: 1em;
+}
+.tag {
+  margin-top: 0.5em;
+}
+.tag small {
+  align-self: end;
+}
+small.arrow-down {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+.cart ::-webkit-scrollbar {
+  width: 5px;
+}
